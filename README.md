@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://HinaSejaru124.github.io/Interactive-Credit-Card)
+- Live Site URL: [Bank Card Live URL](https://HinaSejaru124.github.io/Interactive-Credit-Card)
 
 ## My process
 
