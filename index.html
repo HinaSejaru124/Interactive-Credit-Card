@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+
+<body>
+  <main>
+    <div class="left">
+      <div id="front_card">
+        <div class="circles">
+          <img src="images/card-logo.svg" alt="">
+        </div>
+
+        <div class="front_card_text">
+          <h1 id="card_num">0000 0000 0000 0000</h1>
+          <div>
+            <span id="name">Jane Appleseed</span>
+            <span id="dam">00/00</span>
+          </div>
+
+        </div>
+      </div>
+      <div id="back_card">
+        <span id="cvc">000</span>
+      </div>
+    </div>
+    <div class="right">
+      <div id="main">
+        <div>
+          Cardholder Name
+          <input type="text" id="name_input" placeholder="e.g. Jane Appleseed" required>
+        </div>
+
+        <div>
+          Card Number
+          <input type="text" id="card_num_input" placeholder="e.g. 1234 5678 9123 0000" accept="number" required>
+        </div>
+
+        <div>
+          <div>
+            Exp. Date (MM/YY)
+            <div>
+              <input type="text" id="month_input" placeholder="MM" required>&nbsp;&nbsp;
+              <input type="text" id="year_input" placeholder="YY" required>
+            </div>
+
+          </div>
+          <div>
+            CVC
+            <input type="text" id="cvc_input" placeholder="e.g. 123" dropzone="C://Users" required>
+          </div>
+
+        </div>
+        <button type="submit" id="confirm">Confirm</button>
+      </div>
+      <div id="thanks">
+        <img src="images/icon-complete.svg" alt="">
+        <h1 id="thankyou">Thank you!</h1>
+        We've added your card details
+        <button>Continue</button>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- Completed state start 
+
+  
+  Continue-->
+  <script src="script.js"></script>
+</body>
+
+</html>
